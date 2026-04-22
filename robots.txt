@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://infirmiere-domicile-vaud.ch/sitemap.xml
