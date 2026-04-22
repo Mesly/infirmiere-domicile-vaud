@@ -1,9 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
   <url>
     <loc>https://infirmiere-domicile-vaud.ch/</loc>
     <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- City landing pages (uncomment as you create each one) -->
+  <!--
+  <url>
+    <loc>https://infirmiere-domicile-vaud.ch/infirmiere-domicile-nyon</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://infirmiere-domicile-vaud.ch/infirmiere-domicile-morges</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://infirmiere-domicile-vaud.ch/infirmiere-domicile-gland</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://infirmiere-domicile-vaud.ch/infirmiere-domicile-rolle</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://infirmiere-domicile-vaud.ch/infirmiere-domicile-lausanne</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  -->
+
+  <!-- Service pages (uncomment as you create each one) -->
+  <!--
+  <url>
+    <loc>https://infirmiere-domicile-vaud.ch/prise-de-sang-domicile-vaud</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://infirmiere-domicile-vaud.ch/soins-pansement-domicile</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://infirmiere-domicile-vaud.ch/injection-perfusion-domicile</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://infirmiere-domicile-vaud.ch/suivi-post-operatoire-domicile</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  -->
+
+  <!-- Authority content pages (uncomment as you create each one) -->
+  <!--
+  <url>
+    <loc>https://infirmiere-domicile-vaud.ch/remboursement-lamal-soins-domicile</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://infirmiere-domicile-vaud.ch/infirmiere-independante-vs-cms</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  -->
+
 </urlset>
