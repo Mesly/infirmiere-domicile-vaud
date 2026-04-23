@@ -21,12 +21,13 @@
 <meta property="og:image:height" content="630">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="fr_CH">
+<meta property="og:site_name" content="Infirmière à domicile — Nancy Guilloth">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Infirmière à domicile à Nyon, Nancy Guilloth">
 <meta name="twitter:description" content="Soins infirmiers à domicile à Nyon. Remboursés LAMal, sans avance de frais. Disponible 7j/7.">
 <meta name="twitter:image" content="https://infirmiere-domicile-vaud.ch/og-image.jpg">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"LocalBusiness","name":"Infirmière à domicile à Nyon, Nancy Guilloth","description":"Soins infirmiers à domicile à Nyon, Canton de Vaud. Remboursés LAMal, sans avance de frais. Disponible 7j/7.","telephone":"+41799258220","url":"https://infirmiere-domicile-vaud.ch/infirmiere-domicile-nyon","areaServed":{"@type":"City","name":"Nyon"},"address":{"@type":"PostalAddress","addressLocality":"Nyon","addressRegion":"Vaud","addressCountry":"CH"},"openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"07:00","closes":"20:00"},"isAcceptingNewPatients":true,"insuranceAccepted":"LAMal"}
+{"@context":"https://schema.org","@type":"MedicalBusiness","name":"Infirmière à domicile à Nyon — Nancy Guilloth","description":"Soins infirmiers à domicile à Nyon, Canton de Vaud. Remboursés LAMal, sans avance de frais. Disponible 7j/7.","telephone":"+41799258220","url":"https://infirmiere-domicile-vaud.ch/infirmiere-domicile-nyon","image":"https://infirmiere-domicile-vaud.ch/og-image.jpg","address":{"@type":"PostalAddress","addressLocality":"Nyon","addressRegion":"Vaud","addressCountry":"CH"},"geo":{"@type":"GeoCoordinates","latitude":46.3833,"longitude":6.2396},"areaServed":{"@type":"City","name":"Nyon"},"openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"07:00","closes":"20:00"},"founder":{"@type":"Person","name":"Nancy Guilloth","jobTitle":"Infirmière indépendante diplômée HES"},"hasOfferCatalog":{"@type":"OfferCatalog","name":"Soins infirmiers","itemListElement":[{"@type":"MedicalProcedure","name":"Pansements"},{"@type":"MedicalProcedure","name":"Prélèvements sanguins"},{"@type":"MedicalProcedure","name":"Injections et perfusions"},{"@type":"MedicalProcedure","name":"Préparation du semainier"},{"@type":"MedicalProcedure","name":"Soins de base"},{"@type":"MedicalProcedure","name":"Suivi post-opératoire"}]},"isAcceptingNewPatients":true,"insuranceAccepted":"LAMal"}
 </script>
 <style>
 :root{--green:#0F6E56;--green-light:#e8f5f0;--text:#1a1a1a;--muted:#555;--border:#e0ede8}
@@ -74,6 +75,9 @@ footer{background:#1a1a1a;color:#ccc;padding:2.5rem 1.5rem}
 footer a{color:#aaa;font-size:.9rem}
 footer strong{color:#fff;display:block;margin-bottom:.4rem}
 @media(max-width:600px){.nav-phone{display:none}.btn-row{flex-direction:column}}
+.breadcrumb{font-size:.85rem;color:var(--muted);padding:.6rem 1.5rem;background:#f8fdf9;border-bottom:1px solid var(--border)}
+.breadcrumb a{color:var(--green);text-decoration:none}
+.disclaimer{font-size:.8rem;color:#aaa;line-height:1.7;margin-top:1.25rem;padding-top:1rem;border-top:1px solid #333}
 </style>
 </head>
 <body>
@@ -86,6 +90,12 @@ footer strong{color:#fff;display:block;margin-bottom:.4rem}
     <a class="nav-phone" href="tel:+41799258220">079 925 82 20</a>
     <a class="nav-btn" href="#contact">Prendre rendez-vous</a>
   </div>
+</nav>
+
+<main>
+
+<nav aria-label="Breadcrumb" class="breadcrumb">
+  <a href="/">Accueil</a> › Infirmière à domicile à Nyon
 </nav>
 
 <section class="hero">
@@ -175,12 +185,15 @@ footer strong{color:#fff;display:block;margin-bottom:.4rem}
   </div>
 </div>
 
+</main>
+
 <footer>
   <div class="footer-content">
-    <div><strong>Nancy Guilloth</strong>Infirmière indépendante diplômée HES<br>Région la Côte, Canton de Vaud</div>
+    <div><strong>Nancy Guilloth</strong>Infirmière indépendante diplômée HES<br>Région la Côte, Canton de Vaud<br><span style="font-size:.8rem;color:#aaa">N° RCC : <strong style="color:#ccc">[À COMPLÉTER]</strong></span></div>
     <div><strong>Contact</strong><a href="tel:+41799258220">079 925 82 20</a><br><a href="mailto:Nancy.Guilloth@proton.me">Nancy.Guilloth@proton.me</a></div>
     <div style="font-size:.85rem"><strong>Soins couverts</strong>Remboursés LAMal · Sans avance de frais · 7j/7</div>
   </div>
+  <p class="disclaimer">Les informations présentées sur ce site ont un but informatif et ne remplacent pas un avis médical. Consultez votre médecin traitant pour toute question relative à votre santé.</p>
 </footer>
 
 </body>
