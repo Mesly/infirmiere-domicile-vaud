@@ -34,16 +34,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-
-  <!-- City landing pages (add as you create each one) -->
-  <!--
   <url>
     <loc>https://infirmiere-domicile-vaud.ch/infirmiere-domicile-lausanne</loc>
     <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
-  -->
 
   <!-- Service pages -->
   <url>

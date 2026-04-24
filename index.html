@@ -206,7 +206,8 @@ h2{font-family:'Cormorant Garamond',serif;font-size:clamp(1.9rem,2.8vw,2.7rem);f
 .faq-item.open .faq-a{max-height:300px;padding-bottom:1rem}
 
 /* ZONE */
-.commune-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:8px;margin-top:1.75rem}
+.commune-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-top:1.75rem}
+@media(max-width:600px){.commune-grid{grid-template-columns:repeat(3,1fr)}}
 .commune{background:var(--white);border:1px solid var(--border);border-radius:4px;padding:7px 12px;font-size:13px;color:var(--muted);text-align:center}
 .commune a{color:inherit;text-decoration:none}
 .fcol li a{color:inherit;text-decoration:none}
@@ -469,7 +470,7 @@ footer{background:var(--text);color:rgba(255,255,255,.6);padding:3rem 4rem;displ
  <div class="commune">Aubonne</div>
  <div class="commune">St-Prex</div>
  <div class="commune"><a href="/infirmiere-domicile-morges">Morges</a></div>
- <div class="commune">Lausanne</div>
+ <div class="commune"><a href="/infirmiere-domicile-lausanne">Lausanne</a></div>
  </div>
 </section>
 
@@ -527,6 +528,7 @@ footer{background:var(--text);color:rgba(255,255,255,.6);padding:3rem 4rem;displ
  <a href="/infirmiere-domicile-morges" style="background:#0F6E56;color:#fff;padding:.5rem 1.1rem;border-radius:8px;font-size:.9rem;font-weight:500;text-decoration:none">Infirmière à domicile à Morges</a>
  <a href="/infirmiere-domicile-gland" style="background:#0F6E56;color:#fff;padding:.5rem 1.1rem;border-radius:8px;font-size:.9rem;font-weight:500;text-decoration:none">Infirmière à domicile à Gland</a>
  <a href="/infirmiere-domicile-rolle" style="background:#0F6E56;color:#fff;padding:.5rem 1.1rem;border-radius:8px;font-size:.9rem;font-weight:500;text-decoration:none">Infirmière à domicile à Rolle</a>
+ <a href="/infirmiere-domicile-lausanne" style="background:#0F6E56;color:#fff;padding:.5rem 1.1rem;border-radius:8px;font-size:.9rem;font-weight:500;text-decoration:none">Infirmière à domicile à Lausanne</a>
  </div>
  <p style="font-size:.85rem;color:#555">Coppet · Tannay · Mies · Begnins · Genolier · Aubonne · St-Prex et toute la Côte vaudoise</p>
 </section>
@@ -554,7 +556,7 @@ footer{background:var(--text);color:rgba(255,255,255,.6);padding:3rem 4rem;displ
  <p class="footer-heading"><strong>Zone d'intervention</strong></p>
  <ul>
  <li><a href="/infirmiere-domicile-nyon">Nyon</a> · <a href="/infirmiere-domicile-gland">Gland</a> · <a href="/infirmiere-domicile-rolle">Rolle</a></li>
- <li><a href="/infirmiere-domicile-morges">Morges</a> · Lausanne</li>
+ <li><a href="/infirmiere-domicile-morges">Morges</a> · <a href="/infirmiere-domicile-lausanne">Lausanne</a></li>
  <li>Genolier · Gingins</li>
  <li>Coppet · Tannay · Mie</li>
  <li>Région la Côte vaudoise</li>
