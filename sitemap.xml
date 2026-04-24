@@ -45,14 +45,14 @@
   </url>
   -->
 
-  <!-- Service pages (uncomment as you create each one) -->
-  <!--
+  <!-- Service pages -->
   <url>
     <loc>https://infirmiere-domicile-vaud.ch/prise-de-sang-domicile-vaud</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-04-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
+  <!--
   <url>
     <loc>https://infirmiere-domicile-vaud.ch/soins-pansement-domicile</loc>
     <lastmod>2026-04-23</lastmod>
